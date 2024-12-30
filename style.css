@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.services, .projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.project img, .profile img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+}
+
+form label, form input, form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #2575fc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
